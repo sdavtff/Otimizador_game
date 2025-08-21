@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Otimização de Jogos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Otimização de Jogos</h1>
+  <div class="buttons">
+    <button onclick="otimizar('RAM')">💾 Otimizar RAM</button>
+    <button onclick="otimizar('Cache')">🗑️ Limpar Cache</button>
+    <button onclick="otimizar('Apps')">🚀 Fechar Apps</button>
+    <button onclick="otimizar('Bateria')">⚡ Otimizar Bateria</button>
+    <button onclick="otimizar('Arquivos')">🗂️ Limpar Arquivos</button>
+    <button onclick="otimizar('Jogo')">🏎️ Acelerar Jogo</button>
+    <button onclick="otimizar('Performance')">🎮 Modo Performance</button>
+    <button onclick="otimizar('Temperatura')">🌡️ Monitor Temp</button>
+    <button onclick="contribuir()">💖 Contribuir</button>
+  </div>
+  <div class="status">
+    <p id="status">Pronto para otimizar!</p>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    <p id="monitor">CPU: 35% | RAM: 45% | Bateria: 85% | Temp: 38°C</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

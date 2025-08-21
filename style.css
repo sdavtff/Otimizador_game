@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #7B2FF7, #2C2C54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #1C1C1C;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(123, 47, 247, 0.5);
+  width: 90%;
+  max-width: 400px;
+  color: #fff;
+}
+
+h1 {
+  color: #BB33FF;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.buttons button {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px;
+  background: linear-gradient(45deg, #BB33FF, #7B2FF7);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 48%;
+  transition: all 0.3s;
+  box-shadow: 0 0 10px #BB33FF, 0 0 20px #7B2FF7;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #BB33FF, 0 0 30px #7B2FF7;
+}
+
+.status p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #E0C3FC;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Barra de progresso */
+#progress-container {
+  width: 100%;
+  height: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #BB33FF, #7B2FF7);
+  border-radius: 10px;
+  transition: width 0.2s;
+}
